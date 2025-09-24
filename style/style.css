@@ -37,3 +37,34 @@
      border-radius: 30px;
      border: none;
 }
+
+.body {
+    background-color: #222222;
+    height: 100%;
+    
+    
+
+        .left {
+            width: 70%;
+            flex-wrap: wrap;
+            display: flex;
+            
+
+        }
+
+        .right {
+            width: 30%;
+        }
+}
+
+.card {
+    color: white;
+    width: calc(100% / 4 - 10px);
+    padding: 2.5px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+}
