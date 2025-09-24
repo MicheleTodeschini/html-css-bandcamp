@@ -10,7 +10,7 @@
 
 }
 
-.btn_top {
+.btn_header_top {
     width: 200px;
     height: 30px;
     background-color: #464646;
@@ -20,5 +20,20 @@
 .btn1 {
      background-color: #222222;
      color: white;
+     border: none;
+}
+
+.header_bottom {
+    background-color: #2b2b2b;
+    padding: 1rem;
+}
+
+.btn_header_bottom {
+     background-color: #464646;
+     color: gray;
+     width: 300px;
+     height: 30px;
+     text-align: left;
+     border-radius: 30px;
      border: none;
 }
