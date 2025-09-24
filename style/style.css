@@ -54,6 +54,13 @@
 
         .right {
             width: 30%;
+            padding: 20px;
+
+            img {
+            max-width: 100%;
+            height: auto;
+           
+        }
         }
 }
 
@@ -67,4 +74,22 @@
             height: auto;
         }
     
+}
+
+.btn_play {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+    }
+
+
+.listening {
+    display: flex;
+    color: white;
+    margin-top: 1rem;
+    }
+
+.list_item {
+    list-style-type: none;
 }
