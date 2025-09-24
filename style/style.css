@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+.header_top {
+    padding: 4px;
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+
+}
+
+.btn_top {
+    width: 200px;
+    height: 30px;
+    background-color: #464646;
+    color: gray;
+}
+
+.btn1 {
+     background-color: #222222;
+     color: white;
+     border: none;
+}
