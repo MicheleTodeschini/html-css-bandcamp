@@ -19,6 +19,10 @@
 
 }
 
+ .image_mobile{
+  display: none;
+ }
+
 .btn_header_top {
     width: 200px;
     height: 30px;
@@ -191,6 +195,25 @@
     .right{
         display: none;
     }
+
+.image_full{
+   display: none;
+  }
+
+.image_mobile{
+   display: inline;
+  }
+
+    .btn_header_bottom {
+     background-color: #464646;
+     color: gray;
+     width: 100%;
+     height: 40px;
+     text-align: left;
+     border-radius: 30px;
+     border: none;
+     font-size: 1.2rem;
+}
 
     .body {
 
