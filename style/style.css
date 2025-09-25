@@ -9,6 +9,8 @@
     display: flex;
     background-color: #222222;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 
 }
 
@@ -116,6 +118,36 @@
     margin-top: 1rem;
 }
 
+.artist {
+    color: white;
+}
+
+    .artist_top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    
+
+ img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        
+    }
+
+    }
+
+   .follow {
+    width: 100%;
+    height: 40px;
+    margin-top: 1rem;
+     background-color: #222222;
+     color: white;
+     border-color: white;
+   }
+
+
 
 
 @media screen and (min-width: 744px) and (max-width: 1023px){
@@ -133,7 +165,7 @@
 }
     .btn_play {
     height: 40px;
-    width: 50px;
+    width: 40px;
     border-radius: 50%;
     
     }
@@ -143,3 +175,4 @@
 }
 
 }
+
