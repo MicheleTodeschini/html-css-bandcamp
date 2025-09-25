@@ -12,6 +12,11 @@
     flex-direction: row;
     align-items: center;
 
+    img {
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+
 }
 
 .btn_header_top {
@@ -19,6 +24,7 @@
     height: 30px;
     background-color: #464646;
     color: gray;
+   align-items: center;
 }
 
 .btn1 {
@@ -179,5 +185,34 @@
     display: contents;
 }
 
+}
+
+@media screen and (min-width: 600px) and (max-width: 743px) {
+    .right{
+        display: none;
+    }
+
+    .body {
+
+        .left{
+        width: 100%;
+
+        .right {
+            width: 0%;
+        }
+    }
+    }
+
+       .card {
+    color: white;
+    width: calc(100% / 2 - 10px);
+    padding: 5px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+}
 }
 
