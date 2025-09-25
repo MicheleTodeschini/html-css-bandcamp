@@ -120,6 +120,7 @@
 
 .artist {
     color: white;
+    display: none;
 }
 
     .artist_top {
@@ -172,6 +173,10 @@
     .list_item {
     list-style-type: none;
     margin-left: -2rem;
+}
+
+.artist {
+    display: contents;
 }
 
 }
