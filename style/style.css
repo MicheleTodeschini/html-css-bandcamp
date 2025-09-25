@@ -90,6 +90,14 @@
     
 }
 
+.ellipsis {
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+        
+}
+
 .btn_play {
     height: 50px;
     width: 50px;
@@ -103,6 +111,10 @@
     color: white;
     margin-top: 1rem;
     }
+
+.play {
+    width: 100%;
+}
 
 .list_item {
     list-style-type: none;
